@@ -17,8 +17,17 @@
   font-size: 2em;
   z-index: 90;
 }
+#github-link {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 90;
+}
+#github-link .material-symbols-outlined {
+  font-size: 2em;
+}
 
-#container > .material-symbols-outlined:hover {
+#container > .material-symbols-outlined:hover, #github-link .material-symbols-outlined:hover {
   box-shadow: none !important;
 }
 
